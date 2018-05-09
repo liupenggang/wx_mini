@@ -1,0 +1,26 @@
+/* pages/shoppingCart/shoppingCart.wxss */
+.h-100 {
+  height: 100%;
+}
+.flower-shop-content {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 12px;
+  height: 100%;
+  font-family: sans-serif;
+  background-color: #F8F8FF;
+}
+.flower-shop-title {
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 14px;
+  background-color: #FFFFFF;
+}
+.flower-shop-list {
+  margin-top: 15px;
+  background-color: #FFFFFF;
+}
+.flower-shop-total {
+  margin-top: 15px;
+  background-color: #FFFFFF;
+}

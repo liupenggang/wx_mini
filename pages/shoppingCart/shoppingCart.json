@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "component-list": "../components/list/list",
+    "component-actionsheet": "../components/actionsheet/actionsheet"
+  }
+}

@@ -1,0 +1,19 @@
+/* pages/flowerDetail/flowerDetail.wxss */
+.flower-detail {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.flower-detail-content {
+  margin-bottom: 10%;
+}
+.flower-detail-shopping {
+  text-align: center;
+}
+.flower-detail-shopping-num {
+  padding: 0 10px;
+}
+.mg-t-50 {
+  margin-top: 50px;
+}

@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "component-searchbar": "../components/searchbar/searchbar",
+    "component-button": "../components/button/button",
+    "component-dialog": "../components/dialog/dialog",
+    "component-panel": "../components/panel/panel",
+    "component-footer": "../components/footer/footer",
+    "component-list": "../components/list/list",
+    "component-actionsheet": "../components/actionsheet/actionsheet"
+  }
+}

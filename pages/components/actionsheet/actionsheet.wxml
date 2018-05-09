@@ -1,0 +1,11 @@
+<view class="shop-sheet-total">
+  <view class="shop-sheet-total-left">
+    <div type="default" bindtap="open">总共： {{totalMoney}} RMB</div>
+  </view>
+  <view wx:if="{{payFlag}}" bindtap="payMoney" class="shop-sheet-total-rigth">
+      <div type="default">去支付</div>
+  </view>
+  <view wx:if="{{!payFlag}}" bindtap="goToShop" class="shop-sheet-total-rigth">
+      <div type="default">去结算</div>
+  </view>
+</view>

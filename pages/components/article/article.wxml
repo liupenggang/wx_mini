@@ -1,0 +1,20 @@
+<view class="page">
+  <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1">{{data.name}}</view>
+      <view class="weui-article__section">
+        <view class="weui-article__section">
+          <view class="weui-article__p">
+            {{data.doc}}
+          </view>
+          <view class="weui-article__p">
+            价格： <span class="color-red">{{data.price}} RMB</span>
+          </view>
+          <view class="weui-article__p">
+            <image class="weui-article__img" src="../images/pic_article.png" mode="aspectFit" style="height: 180px" />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

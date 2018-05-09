@@ -1,0 +1,11 @@
+/* 作为展示用的样式 */
+@import '../styles/weui-footer/weui-footer';
+
+.weui-footer{
+  padding: 2% 0;
+  background-color: #fff;
+}
+.weui-footer_fixed-bottom{
+  margin-bottom: 0;
+  bottom: 0;
+}

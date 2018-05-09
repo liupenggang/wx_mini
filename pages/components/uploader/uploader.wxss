@@ -1,0 +1,16 @@
+@import '../styles/weui';
+
+.flower-list-content {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.flow-list-content-left {
+  width: 20%;
+  height: 100%;
+  background-color: red;
+}
+.flow-list-content-right {
+  width: 80%;
+  height: 100%;
+  background-color: green;
+}

@@ -1,0 +1,30 @@
+@import '../styles/weui';
+
+page{
+  background-color: #FFFFFF;
+}
+.shop-sheet-total {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+  background: #efeff4;
+  padding: 15px 0;
+}
+.shop-sheet-total-left,.shop-sheet-total-rigth{
+  display: inline-block;
+color: #000;
+font-size: 14PX;
+text-align: center;
+
+}
+.shop-sheet-total-left{
+float: left;
+width: 70%;
+}
+.shop-sheet-total-rigth{
+  border-left:1px solid #000;
+  float: right;
+  width: 28%;
+}

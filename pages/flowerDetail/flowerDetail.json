@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "component-article": "../components/article/article",
+    "component-button": "../components/button/button",
+    "component-footer": "../components/footer/footer",
+    "component-uploader": "../components/uploader/uploader"
+  }
+}

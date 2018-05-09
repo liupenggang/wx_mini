@@ -1,0 +1,19 @@
+<!--pages/flowerDetail/flowerDetail.wxml-->
+<view class="flower-detail">
+  <view class="flower-detail-content">
+    <component-article data="{{flowerData}}"></component-article>
+    <view class="flower-detail-shopping">
+      加入购物车:
+      <span wx:if="{{flowerNum > 0}}">
+        <icon bindtap="lessFlowerNum" type="cancel" size="23"></icon>
+        <span class="flower-detail-shopping-num">{{flowerNum}}</span>
+      </span>
+      <icon bindtap="addFlowerNum" type="success" size="23"></icon>
+    </view>
+    <view class="mg-t-50">
+      下面跟详情页没太大关系，只是为了展示一下上传图片组件。
+      <component-uploader></component-uploader>
+    </view>
+  </view>
+  <component-footer></component-footer>
+</view>

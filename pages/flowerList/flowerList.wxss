@@ -1,0 +1,26 @@
+/* pages/flowerList/flowerList.wxss */
+.flower-list-content {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.flower-list-search {
+  position:fixed;
+  width:100%;
+  z-index:3;
+}
+.flow-list-content-left {
+  width: 30%;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  margin-right: 3%;
+}
+.flow-list-content-right {
+  width: 65%;
+  float: right;
+  margin-top: 45px;
+  margin-right:10px;
+  margin-bottom: 10%;
+}

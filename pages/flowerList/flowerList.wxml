@@ -1,0 +1,18 @@
+<!--pages/flowerList/flowerList.wxml-->
+<view>
+  <view class="flower-list-search">
+    <component-searchbar bindhandlesearch="flowerDateSearch" bindcancelsearch="cancelSearch"></component-searchbar>
+  </view>
+  <view class="flower-list-content">
+    <view class="flow-list-content-left">
+      <component-list listData="{{flowerData}}" bindmyevent="flowerDataClick"></component-list>
+    </view>
+    <view class="flow-list-content-right">
+      <component-panel listData="{{flowerList}}" flowerNum="{{clearChoiceList}}" bindlessnum="lessShopping" bindaddnum="addShopping"></component-panel>
+    </view>
+  </view>
+  <view wx:if="{{totalMoney > 0}}">
+    <component-actionsheet totalMoney="{{totalMoney}}" dataList="{{choiceList}}"></component-actionsheet>
+  </view>
+  <component-footer></component-footer>
+</view>

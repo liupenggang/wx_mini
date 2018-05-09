@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/flowerList/flowerList",
+    "pages/shoppingCart/shoppingCart",
+    "pages/flowerDetail/flowerDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "demo",
+    "navigationBarTextStyle": "black"
+  }
+}

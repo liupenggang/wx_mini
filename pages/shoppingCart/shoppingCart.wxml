@@ -1,0 +1,17 @@
+<!--pages/shoppingCart/shoppingCart.wxml-->
+<view class="h-100">
+  <view class="flower-shop-content">
+    <view class="flower-shop-title">
+      购物车
+    </view>
+    <view class="flower-shop-list">
+      <component-list listData="{{shopDataList}}" listTab></component-list>
+    </view>
+    <view class="flower-shop-total">
+      <component-list listData="{{shopDataTotal}}" listTab></component-list>
+    </view>
+  </view>
+  <view>
+    <component-actionsheet totalMoney="{{totalMoney}}" payFlag></component-actionsheet>
+  </view>
+</view>
